@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<declare-styleable name="CustomTextView">
+		
+		<attr name="fontName" format="enum">
+			
+			<enum name="IranSansLight" value="1"/>
+			<enum name="IranSans_UltraLight" value="2"/>
+			<enum name="IranSans_Medium" value="3"/>
+			<enum name="IranSans" value="4"/>
+			<enum name="IranSans_Bold" value="5"/>
+			
+			<enum name="IRANYekan_300" value="6"/>
+			<enum name="IRANYekan_400" value="7"/>
+			<enum name="IRANYekan_700" value="8"/>
+			
+		</attr>
+		
+	</declare-styleable>
+	
+</resources>

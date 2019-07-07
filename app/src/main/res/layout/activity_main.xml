@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".activity.MainActivity">
+	
+	<com.flaviofaria.kenburnsview.KenBurnsView
+		android:id="@+id/kenBurs"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/galaxy"/>
+	
+	<android.support.v7.widget.CardView
+		android:id="@+id/infoView"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		app:cardElevation="10dp">
+	
+	</android.support.v7.widget.CardView>
+	
+	
+	<com.nc.story.component.CustomTextView
+		android:id="@+id/storyBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="داستان ها"
+		android:padding="@dimen/padding"
+		android:background="@drawable/bg_story_btn"
+		android:textColor="#fff"
+		android:textSize="20sp"
+		app:fontName="IranSans_Medium"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>
